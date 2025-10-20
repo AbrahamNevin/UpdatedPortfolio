@@ -7,7 +7,7 @@ const Articles = () => {
   const articles = [
     {
       title: "I Just Read The Psychology of Money and It Completely Changed How I Think About Wealth",
-      date: "2024-01-15",
+      date: "2025-08-27",
       readTime: "3 min read",
       preview: "So I finally got around to reading The Psychology of Money by Morgan Housel, and wow — ",
       category: "Money Management",
@@ -16,19 +16,19 @@ const Articles = () => {
     },
     {
       title: "The Future of Social Media Marketing in 2024",
-      date: "2024-01-08",
-      readTime: "6 min read",
-      preview: "Discover the emerging trends and strategies that will shape social media marketing this year. From AI-powered content to authentic engagement.",
+      date: "2025-10-19",
+      readTime: "4 min read",
+      preview: "I still remember the first conversation I had with the founder of V1 Esports. He had this infectious energy when he talked about his café",
       category: "Digital Marketing",
-      url: "https://medium.com/@nevinabr025/future-of-social-media-marketing-2024"
+      url: "hhttps://medium.com/@nevinabr025/how-a-gaming-caf%C3%A9-taught-me-what-real-growth-actually-looks-like-81a205b1b22d\ttps://medium.com/@nevinabr025/future-of-social-media-marketing-2024"
     },
     {
       title: "Creating Responsive Designs with Tailwind CSS",
-      date: "2023-12-22",
+      date: "2025-08-06",
       readTime: "5 min read",
-      preview: "Master the art of responsive design using Tailwind CSS utility classes. Learn mobile-first design principles and advanced layout techniques.",
-      category: "CSS",
-      url: "https://medium.com/@nevinabr025/responsive-designs-tailwind-css"
+      preview: "I’m excited to share that I just completed my first freelancing project,building a website for a company called Insurance and Solutions! ",
+      category: "Web Development",
+      url: "https://medium.comhttps://medium.com/@nevinabr025/finished-my-first-freelancing-project-0d64eee5e438/@nevinabr025/responsive-designs-tailwind-css"
     },
   
   ];
