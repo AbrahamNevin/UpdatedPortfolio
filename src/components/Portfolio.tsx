@@ -13,20 +13,20 @@ import {
 const Portfolio = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, admin dashboard, and mobile-responsive design.",
+      title: "Insurance and Solution Website",
+      description: "A website for the company Insurance and solution, this was my first freelancing project. ",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    },
+      liveUrl: "https://https://www.insuranceandsolutions.in/.com",
+      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website"
+    }, 
     {
       title: "Social Media Dashboard",
       description: "Analytics dashboard for social media management with real-time metrics and content scheduling.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
       technologies: ["React", "TypeScript", "Chart.js", "API Integration"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://https://www.insuranceandsolutions.in/.com",
+      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website"
     },
     {
       title: "Portfolio Website",
