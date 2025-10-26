@@ -95,7 +95,7 @@ const Skills = () => {
         </div>
 
         {/* Tools & Technologies */}
-        <div className="mt-16 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+        {/* <div className="mt-16 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <h3 className="text-2xl font-bold mb-8 text-center">Tools & Technologies</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {tools.map((tool, index) => (
@@ -108,8 +108,8 @@ const Skills = () => {
                 {tool}
               </Badge>
             ))}
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </section>
   );
