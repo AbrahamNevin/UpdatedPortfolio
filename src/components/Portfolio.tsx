@@ -14,19 +14,19 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Insurance and Solution Website",
-      description: "A website for the company Insurance and solution, this was my first freelancing project. ",
+      description: "A website for the company Insurance and Solution. This was my first freelancing project.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "https://https://www.insuranceandsolutions.in/.com",
-      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website"
-    }, 
+      liveUrl: "https://www.insuranceandsolutions.in",
+      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website",
+    },
     {
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media management with real-time metrics and content scheduling.",
+      title: "Geomatrix Machining Solutions",
+      description: "We combine advanced technology with expert craftsmanship to engineer precision components that exceed modern industry standards.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["React", "TypeScript", "Chart.js", "API Integration"],
-      liveUrl: "https://https://www.insuranceandsolutions.in/.com",
-      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website"
+      technologies: ["React", "TypeScript"],
+      liveUrl: "https://www.geomatrixmachining.com/",
+      githubUrl: "https://github.com/AbrahamNevin/Insurance-and-solutions-website",
     },
     {
       title: "Portfolio Website",
@@ -34,7 +34,7 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
       technologies: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com",
     },
     {
       title: "Restaurant Website",
@@ -42,14 +42,14 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop",
       technologies: ["WordPress", "PHP", "MySQL", "Custom Theme"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com",
     },
     {
       title: "Brand Identity Package",
       description: "Complete brand identity design including logo, color palette, typography, and brand guidelines.",
       image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop",
       technologies: ["Adobe Illustrator", "Figma", "Brand Strategy", "Design Systems"],
-      liveUrl: "https://example.com"
+      liveUrl: "https://example.com",
     },
     {
       title: "Mobile App Landing",
@@ -57,8 +57,8 @@ const Portfolio = () => {
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
       technologies: ["Next.js", "Tailwind CSS", "Analytics", "SEO"],
       liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    }
+      githubUrl: "https://github.com",
+    },
   ];
 
   return (
@@ -92,16 +92,28 @@ const Portfolio = () => {
                     <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="flex gap-2">
                         {project.liveUrl && (
-                          <Button size="sm" className="bg-primary hover:bg-primary-muted">
-                            <ExternalLink className="h-4 w-4 mr-1" />
-                            Live
-                          </Button>
+                          <a
+                            href={project.liveUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Button size="sm" className="bg-primary hover:bg-primary-muted">
+                              <ExternalLink className="h-4 w-4 mr-1" />
+                              Live
+                            </Button>
+                          </a>
                         )}
                         {project.githubUrl && (
-                          <Button size="sm" variant="outline" className="border-white/30 text-white hover:bg-white/10">
-                            <Github className="h-4 w-4 mr-1" />
-                            Code
-                          </Button>
+                          <a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Button size="sm" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                              <Github className="h-4 w-4 mr-1" />
+                              Code
+                            </Button>
+                          </a>
                         )}
                       </div>
                     </div>
