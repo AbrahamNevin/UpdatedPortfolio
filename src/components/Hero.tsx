@@ -1,6 +1,6 @@
 import { ArrowDown, Download, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/nevin-hero.jpg';
+import heroImage from '@/assets/NevinPic\.jpeg';
 
 const Hero = () => {
   return (
